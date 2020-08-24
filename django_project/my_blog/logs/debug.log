@@ -1,0 +1,11 @@
+Watching for file changes with StatReloader
+Not Found: /article/article-detail/9999/
+"GET /article/article-detail/9999/ HTTP/1.1" 404 1780
+"GET /article/article-list/ HTTP/1.1" 200 12721
+"GET /article/article-list/?column=2 HTTP/1.1" 200 7898
+"GET /article/article-list/?tag=python HTTP/1.1" 200 7908
+"GET /article/article-list/?order=total_views&search=&column=None&tag=python HTTP/1.1" 200 7908
+"GET /article/article-list/ HTTP/1.1" 200 12721
+"GET /accounts/login/ HTTP/1.1" 200 6851
+"POST /accounts/login/ HTTP/1.1" 302 0
+"GET / HTTP/1.1" 200 14291
